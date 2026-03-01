@@ -1,4 +1,4 @@
-Vendor Performance Analysis Project
+                                                    Vendor Performance Analysis Project
 
 # 📌 Project Overview
 
@@ -7,6 +7,7 @@ This project focuses on analyzing vendor performance by integrating and summariz
 The analysis consolidates data spread across different sources into a single summary view to support business insights and decision-making.
 
 # 📂 Dataset Description
+
 1. Purchases Table
 
 The purchases table contains actual purchase transaction data, including:
@@ -35,11 +36,8 @@ The purchase price used in the purchases table is derived from this dataset.
 The vendor_invoice table aggregates data from the purchases table and includes:
 
 Total quantity purchased
-
 Total dollar amount
-
 Freight cost
-
 This table maintains uniqueness based on vendor and purchase order (PO) number.
 
 4. Sales Table
@@ -47,11 +45,8 @@ This table maintains uniqueness based on vendor and purchase order (PO) number.
 The sales table captures actual sales transaction data, including:
 
 Brands sold by vendors
-
 Quantity sold
-
 Selling price
-
 Revenue earned
 
 # 🎯 Analysis Objective
@@ -59,16 +54,13 @@ Revenue earned
 Since the data required for analysis is distributed across multiple tables, the primary goal of this project is to create a consolidated summary table that includes:
 
 Purchase transactions made by vendors
-
 Sales transaction details
-
 Freight costs for each vendor
-
 Actual product prices sourced from vendors
 
 This summary enables a holistic evaluation of vendor performance across procurement, logistics, and sales dimensions.
 
-🛠 Tools & Technologies
+# 🛠 Tools & Technologies
 
 Python
 Pandas
@@ -78,9 +70,7 @@ SQL (for data extraction and joins)
 # 📌 Notes
 
 Raw datasets are not included in this repository due to size constraints.
-
 The project structure follows best practices for data analytics workflows.
-
 All analysis is reproducible using the provided notebooks and scripts.
 
 
